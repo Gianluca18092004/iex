@@ -1,0 +1,110 @@
+<!----><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/fixer.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>IEX Fix : The best fix</title>
+    <script src="/IEX-min.js"></script>
+    <script src="/gbxne.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/iexfix.png" alt="">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#link1">Start</a></li>
+                    <li><a href="#link2">Benefits</a></li>
+                    <li><a href="#link3">How to Use</a></li>
+                    <li><a href="#link4">Browser Support</a></li>
+                    <li><a href="#link5">Setup and to consider</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+        <article>
+            <a name="link1"></a>
+                <h1>What's is IEX?</h1>
+                <p>IEX is an improved version of ie9.js created by Dean Edwards. Add support for DOM2, addEventListener, placeHolder, inline-block and most important full PNG for IE6.
+                    AlphaImageloder is replaced by VML because it brought problems to the performance of the browser, as well as supporting bicubic images and background-repeat as background-position.</p>
+                <a name="link2"></a>
+                <h2>Benefits</h2>
+                <div class="benefits">
+                    <ul>
+                        <li>VML Fix for IE6- PNG</li>
+                        <li>Fix Hover on IE6-</li>
+                        <li>Focus and active on IE7-</li>
+                        <li>Box Model fix on IE5/IE6 Quirks</li>
+                        <li>inline-block support for IE7-</li>
+                        <li>querySelector support for IE7-</li>
+                        <li>addEventListener support for IE8-</li>
+                        <li>HTML5 tags support</li>
+                        <li>Opacity Support</li>
+                        <li>placeHover Support on input and textarea</li>
+                        <li>Save 85% of IE adapting codes</li>
+                        <li>Make IE little faster and stable</li>
+                    </ul>
+                </div>
+                <a name="link3"></a>
+                <h2>How to use</h2>
+                <h3>For developer version</h3>
+                <div class="code">
+                    <span><</span>!--[if lt IE 9]><br>
+                    <span><</span>script src="http://www.iexfix.tk/IEX.js"><span><</span>/script>
+                    <br><span><</span>![endif]-->
+                </div>
+                <h3>For production version</h3>
+                <div class="code">
+                    <span><</span>!--[if lt IE 9]><br>
+                    <span><</span>script src="http://www.iexfix.tk/IEX-min.js"><span><</span>/script>
+                    <br><span><</span>![endif]-->
+                </div>
+                <a name="link5"></a>
+                <h2>Setup and to consider</h2>
+                <h3>Internet Explorer 5.5</h3>
+                <p>Not every configuration and/or copy of Internet Explorer 5.5 works with IEXfix. Service Pack 2 and KB2962872 are required.</p>
+                <p>IE5.x comes with very weak VML/VGX support, which will not allow transparent PNGs to work, so upgrade to IE6's VGX.</p>
+                <h3>Internet Explorer 6</h3>
+                <p>Internet Explorer 6 can work in both Normal and Quirks modes. The original IE9.js worked in quirks mode only with IE5.5. But IEX activates quirks mode as long as <i>«document.compatMode != 'CSS1Compat'»</i>.</p>
+                <p>We recommend using Quirks mode for IE6 since Normal mode doesn't support <i>«box-sizing: bordex-box;»</i></p>
+                <h3>Internet Explorer 7</h3>
+                <p>Internet Explorer 7 can work in both Normal and Quirks modes. The original IE9.js worked in quirks mode only with IE5.5. But IEX activates quirks mode as long as <i>«document.compatMode != 'CSS1Compat'»</i>.</p>
+                <p>We recommend using Quirks mode for IE7 since Normal mode doesn't support <i>«box-sizing: bordex-box;»</i></p>
+                <h3>Internet Explorer 8</h3>
+                <p>You can use normal mode without problems as it supports <i>«box-sizing: bordex-box;»</i>. Although with <i><span></span><</span>meta http-equiv="X-UA-Compatible" content="IE=5"></i> you can use the quirks mode without problems.</p>
+                <h3>Internet Explorer 9</h3>
+                <p>You can use normal mode as it supports <i>«box-sizing: bordex-box;»</i>, but IE9 has certain limitations. We recommend using IE8 mode with <i><span></span><</span>meta http-equiv="X-UA-Compatible" content="IE=8"></i>, or quirks mode with <i><span></span><</span>meta http-equiv="X-UA-Compatible" content="IE=5"></i>.</p>
+        </article>
+        <aside>
+            <a name="link4"></a>
+            <h3>Download Now!</h3>
+            <a class="download_d" href="http://www.iexfix.tk/IEX.js">Developer<br><span class="size">113KB</span></a>
+            <a class="download" href="http://www.iexfix.tk/IEX-min.js">Production<br><span class="size">68KB</span></a>
+            <p><cite>Versión 3.0 from March 2022</cite></p>
+            <h3>Browser Support</h3>
+            <div class="browsers">
+                <ul>
+                    <li style="background-image: url(/ie5.png);">Internet Explorer 5.5</li>
+                    <li style="background-image: url(/ie6.png);">Internet Explorer 6</li>
+                    <li style="background-image: url(/ie7.png);">Internet Explorer 7</li>
+                    <li style="background-image: url(/ie7.png);">Internet Explorer 8</li>
+                    <li style="background-image: url(/ie9.png);">Internet Explorer 9</li> 
+                </ul>
+            </div>
+            <a href="http://reviveie55.ga/certificates.php" id="cert2">
+                <img src="./cert2.png" alt="">
+            </a>
+        </aside>
+        </section>
+        <footer>
+            &copy; 2022 Gianluca18092004. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
